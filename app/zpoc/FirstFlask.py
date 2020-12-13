@@ -14,7 +14,7 @@ def token():
 
 def handler(event, context):
     app.run()
-    return 'Hello from AWS Lambda using Python' + sys.version + '!!'
+    return 'Hello from AWS Lambda using Python' + sys.version + '!!!'
 
 if __name__ == '__main__':
     app.run()
